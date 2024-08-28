@@ -6,6 +6,6 @@ console.log(`Output: ${subArray}`);
 console.log(`2. Find the numbers multiple of 5 and then sum it`)
 const addFiveArray = array_numbers.filter(element => element = element % 5 == 0).reduce((preValue, currentValue) => preValue + currentValue);
 console.log(`Output: ${addFiveArray}`);
-const newArray = [3, 4, 8];
-const averageArray = newArray.reduce((first, current) => first + current) / newArray.length;
-console.log(averageArray);
+// const newArray = [3, 4, 8];
+// const averageArray = newArray.reduce((first, current) => first + current) / newArray.length;
+// console.log(averageArray);
